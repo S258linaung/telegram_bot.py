@@ -288,7 +288,7 @@ def handle_all(message):
 # ===========================
 # Set webhook (run once)
 # ===========================
-WEBHOOK_URL = "https://electronic-dona.koyeb.app/" + TOKEN
+WEBHOOK_URL = "https://electronic-dona.koyeb.app/webhook" + TOKEN
 bot.remove_webhook()
 bot.set_webhook(url=WEBHOOK_URL)
 
